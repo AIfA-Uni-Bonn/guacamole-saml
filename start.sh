@@ -691,7 +691,7 @@ END
 ##
 ##
 ##
-assiciate_saml() {
+associate_saml() {
     # Update config file
     set_property            "saml-entity-id"                    "$SAML_ENTITY_ID"
     set_property            "saml-callback-url"                 "$SAML_CALLBACK_URL"
